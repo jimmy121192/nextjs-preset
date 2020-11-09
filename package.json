@@ -1,0 +1,40 @@
+{
+  "name": "next-v10-preset",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint:jsx": "eslint \"**/*.jsx\" --ignore-pattern node_modules/",
+    "lint:jsx:fix": "eslint ./pages --fix",
+    "lint:css": "stylelint ./styles/*.scss",
+    "lint:css:fix": "stylelint ./styles/*.scss --fix"
+  },
+  "dependencies": {
+    "antd": "^4.8.2",
+    "next": "10.0.1",
+    "node-sass": "^4.14.1",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "env-cmd": "^10.1.0",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jsx-a11y": "^6.3.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "gatsby-plugin-eslint": "^2.0.8",
+    "prettier": "^2.1.2",
+    "stylelint": "^13.7.1",
+    "stylelint-config-standard": "^20.0.0"
+  }
+}

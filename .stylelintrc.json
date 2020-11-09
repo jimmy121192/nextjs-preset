@@ -1,0 +1,23 @@
+{
+    "extends": "stylelint-config-standard",
+    "rules": {
+      "at-rule-no-unknown": null,
+      "no-descending-specificity": null,
+      "function-calc-no-unspaced-operator": null,
+      "function-calc-no-invalid":null,
+      "declaration-colon-newline-after":null,
+      "at-rule-empty-line-before": [
+        "always",
+        {
+          "except": ["inside-block", "blockless-after-same-name-blockless"],
+          "ignoreAtRules": ["media", "import"]
+        }
+      ],
+      "block-closing-brace-newline-after": [
+        "always-multi-line",
+        {
+          "ignoreAtRules": ["if", "else"]
+        }
+      ]
+    }
+  }
