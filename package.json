@@ -25,7 +25,7 @@
     "env-cmd": "^10.1.0",
     "eslint": "^7.2.0",
     "eslint-config-airbnb": "^18.2.0",
-    "eslint-config-prettier": "^6.15.0",
+    "eslint-config-prettier": "^7.0.0",
     "eslint-loader": "^4.0.2",
     "eslint-plugin-import": "^2.21.2",
     "eslint-plugin-jsx-a11y": "^6.3.0",
