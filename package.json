@@ -12,7 +12,7 @@
     "lint:css:fix": "stylelint ./styles/*.scss --fix"
   },
   "dependencies": {
-    "antd": "^4.8.2",
+    "antd": "^5.1.2",
     "next": "10.0.1",
     "node-sass": "^4.14.1",
     "react": "17.0.1",
